@@ -1,15 +1,12 @@
-<style>
 body {
-  background-color: purple;
+  background-color: blue;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 1000px) {
   body {
-    background-color: blue;
+    background-color: purple;
   }
 }
-</style>
-
 
 h1 {
   color: orange;
@@ -104,6 +101,10 @@ img {
 a{
  color:cyan;
 }
+
+
+
+
 
 @media print {
  body {
