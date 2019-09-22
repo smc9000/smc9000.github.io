@@ -1,7 +1,11 @@
-body {
-  background-color: blue;
-}
+<style>
 
+@media screen and (max-width: 1500px) {
+  body {
+    background-color: purple;
+  }
+}
+</style>
 h1 {
   color: orange;
   font-size:100px;
@@ -97,6 +101,15 @@ a{
 }
 
 
+
+@media print {
+ body {
+  margin: 1em;
+  color: #fff;
+  background-color: blue;
+}
+
+}
 
 
 
