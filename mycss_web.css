@@ -1,4 +1,3 @@
-
 body {
   background-color: blue;
 }
@@ -95,11 +94,4 @@ img {
 
 a{
  color:cyan;
-}
-
-
-@media only screen and (max-width: 1000px) {
-  body {
-    background-color: purple;
-  }
 }
