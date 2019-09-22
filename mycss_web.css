@@ -3,12 +3,14 @@ body {
   background-color: purple;
 }
 
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
   body {
     background-color: blue;
   }
 }
 </style>
+
+
 h1 {
   color: orange;
   font-size:100px;
@@ -103,10 +105,12 @@ a{
  color:cyan;
 }
 
+@media print {
+ body {
+  margin: 1em;
+  color: #fff;
+  background-color: blue;
+}
 
-
-
-
-
-
+}
 
