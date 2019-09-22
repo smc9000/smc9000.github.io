@@ -2,9 +2,9 @@ body {
   background-color: blue;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   body {
-    background-color: lightblue;
+    background-color: teal;
   }
 }
 
