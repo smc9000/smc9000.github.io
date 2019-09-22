@@ -1,6 +1,15 @@
+<style>
 body {
-  background-color: blue;
+  background-color: purple;
 }
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: blue;
+  }
+}
+</style>
+
 
 h1 {
   color: orange;
@@ -95,3 +104,24 @@ img {
 a{
  color:cyan;
 }
+
+@media print {
+ body {
+  margin: 2em;
+  color: #fff;
+  background-color: #000;
+}
+
+}
+
+<style>
+body {
+  background-color: pink;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+</style>
