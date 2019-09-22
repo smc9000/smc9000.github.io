@@ -92,10 +92,149 @@ img {
 
 
 
-
 a{
  color:cyan;
 }
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+<div class="intro">
+		<a id="Project"><h1>CUS 1172 Project 1</h1></a>
+</div>
+<link rel="stylesheet" type="text/css" href="mycss_web.css">
+<link rel="stylesheet" type="text/css" href="mycss_tablet.css">
+	</head>
+
+	<body>
+
+
+<nav>
+  <ul style="font-style">
+    <li> <a href="#basic_profile_info"> Basic Profile Info </a></li>
+    <li> <a href="#profile_pic"> Profile Pic </a></li>
+    <li> <a href="#about_section"> About Section </a></li>
+    <li> <a href="#education"> Education </a></li>
+    <li> <a href="#work_experience"> Work Experience </a></li>
+    <li> <a href="#programming_skills"> Programming Skills </a></li>
+    <li> <a href="#general_interests"> General Interests </a></li>
+    <li> <a href="#favorite_musical_video"> Favorite Musical Video </a></li>
+    <li> <a href="#favorite_websites"> Favorite Websites </a></li>
+    <li> <a href="#enter"> Enter Your Info </a></li>
+  </ul>
+</nav>	
+
+
+<style>
+h1 {color:orange;}
+p {color:cyan;}
+</style>
+
+<div id="basic_profile_info">
+<span><h2>Basic Profile Information</h2></span>
+<div id="profile_pic">
+    <img src="https://i.ytimg.com/vi/JOn42lglQTI/maxresdefault.jpg" width=25%/>   
+</div>     		
+			<p>Name: Stuart McIntosh <br>
+			 Major: Computer Science</p>
+</div>
+	   
+
+<div id="about_section">
+<a id="About Section"><h3 style="color:orange;">About Section</a>:</h3> 
+
+	<p>My goal is to become a a Software Engineer. I want to create video games. I have been a gamer since I was four years old. I want to work on a AAA video games such as the next "Red Dead Redemption" or "Batman" or "Spider-Man" game.</p>
+            <p>I would also like to work in the robotics and artificial intelliegence field. I want to use AI to help preserve endangered species. Cameras with AI can efficiently track individual animals far greater than any human could.</p>
+		<p>I would also like to work in the media and entertainment industry as a software engineer or artificial intelligence engineer. I would enjoy working at a company like Netflix, Hulu, HBO, etc...</p>
+            
+</div>
+<div>
+            <ul>
+<div id="education">
+            <li>Education: St. John's University - Bachelor's Degree in Progress</li>
+</div>
+            <li>Hometown: Brooklyn, NY</li>
+<div id="favorite_musical_video">
+            <li>Favorite Muscial Video: WTF Collective</li> <iframe width="300" height="300" src="https://www.youtube.com/watch?v=AE4zF36dPxE" frameholder="0"></iframe>
+</div>
+            </ul>
+</div>
+
+<div id="favorite_websites">
+ <span> <a name="Favorite"><h2>Favorite Websites</h2> </a></span>
+          <ol>
+          <li><a href="https://www.youtube.com">youtube.com</a></li>
+	  <li><a href="https://www.gamespot.com">gamespot.com</a></li>
+	  <li><a href="https://www.ign.com">ign.com</a></li>
+	  </ol>
+</div>
+<div>
+<table style="width:25%">
+  <tr>
+<div id="programming_skills">
+    <th>Programming Skills</th>
+</div>
+<div id="general_interests">
+    <th>Interests</th>
+</div>
+<div id="work_experience">
+    <th>Work Experience</th>
+</div>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>Video Games</td>
+    <td>Pizza Chef</td>
+  </tr>
+  <tr>
+    <td>Basic C++</td>
+    <td>Lifting Weights</td>
+    <td>Personal Trainer</td>
+  </tr>
+  <tr>
+    <td>Basic Javascript</td>
+    <td>Pro Wrestling</td>
+    <td>IT Technician</td>
+  </tr>
+</table>
+</div>
+
+
+<br>
+<div id="enter">	
+<h3>Enter Your Info</h3>
+<form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Middle name:<br>
+  <input type="text" name="middlename"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  SSN:<br>
+  <input type="text" name="SSN">
+  
+</form>
+            </div>
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+</body>
+
+</html>
+
+
 
 
 
