@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 body {
   background-color: blue;
 }
@@ -106,11 +96,12 @@ a{
  color:cyan;
 }
 
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
 
 
