@@ -1,4 +1,4 @@
-@media screen only and (min-width: 1500px) {
+@media screen only and (max-width: 1500px) {
   body {
     background-color: purple;
   }
