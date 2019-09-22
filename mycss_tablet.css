@@ -2,9 +2,9 @@ body {
   background-color: blue;
 }
 
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 1700px) {
   body {
-    background-color: purple;
+    background-color: teal;
   }
 }
 
