@@ -9,8 +9,6 @@ body {
   }
 }
 </style>
-
-
 h1 {
   color: orange;
   font-size:100px;
@@ -105,23 +103,10 @@ a{
  color:cyan;
 }
 
-@media print {
- body {
-  margin: 2em;
-  color: #fff;
-  background-color: #000;
-}
 
-}
 
-<style>
-body {
-  background-color: pink;
-}
 
-@media screen and (min-width: 480px) {
-  body {
-    background-color: lightgreen;
-  }
-}
-</style>
+
+
+
+
