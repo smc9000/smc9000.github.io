@@ -1,8 +1,13 @@
-@media screen only and (max-width: 1500px) {
-    body{
+body {
+  background-color: blue;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
     background-color: purple;
   }
 }
+
 
 h1 {
   color: orange;
