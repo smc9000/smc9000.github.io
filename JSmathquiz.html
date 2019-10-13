@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Math Quiz!</title>
+<link href ="quizCSS.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "MathQuiz.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+
+<body>
+<h1>Take the Quiz!</h1>
+
+<form id = "quiz" name = "quiz">
+
+<div id="q1">
+<p class = "questions">1) What is 2 + 2?</p>
+<input id = "textbox" type = "text" name = "question1">
+<input type="button" onclick="myAnswer1()" value="Submit Answer">
+
+<script>
+var question1 = document.quiz.question1.value;
+function myAnswer1() {
+if(var question1 == 4){
+document.write("You are correct!");
+}
+else{
+document.write("Wrong Answer!");
+}
+}
+</script>
+
+</div>
+
+
+
+<input type="button" onclick="myFunction1()" value="Start Question 1">
+<script>
+function myFunction1() {
+  document.getElementById("q1").style.display = "block";
+}
+</script>
+
+
+<div id="q2">
+<p class = "questions">2) What is 3 to the power of 2?</p>
+<input type = "radio" id = "mc" name = "question2" value = "9"> 9<br>
+<input type = "radio" id = "mc" name = "question2" value = "6"> 6<br>
+<input type = "radio" id = "mc" name = "question2" value = "3"> 3<br>
+</div>
+
+<input type="button" onclick="myFunction2()" value="Start Question 2">
+<script>
+function myFunction2() {
+  document.getElementById("q2").style.display = "block";
+  document.getElementById("q1").style.display = "none";
+
+}
+</script>
+
+<div id="q3">
+<p class = "questions">3) What is the square root of 25?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "5"> 5<br>
+<input type = "radio" id = "mc" name = "question3" value = "525"> 525<br>
+</div>
+
+
+<input type="button" onclick="myFunction3()" value="Start Question 3">
+<script>
+function myFunction3() {
+  document.getElementById("q3").style.display = "block";
+  document.getElementById("q2").style.display = "none";
+
+}
+</script>
+
+<div id="q4">
+<p class = "questions">4) What is the square root of 81?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "9"> 9<br>
+<input type = "radio" id = "mc" name = "question4" value = "7"> 7<br>
+</div>
+
+
+<input type="button" onclick="myFunction4()" value="Start Question 4">
+<script>
+function myFunction4() {
+  document.getElementById("q4").style.display = "block";
+  document.getElementById("q3").style.display = "none";
+
+}
+</script>
+
+<div id="q5">
+<p class = "questions">5) Which shape has a right angle?</p>
+
+<input type = "image" id = "pic" name = "question5" value = img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Blue_Square.svg" width="100" height="100"><br>
+<input type = "image" id = "pic" name = "question5" value = img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Green_equilateral_triangle_point_up.svg" width="100" height="100"><br>
+<input type = "image" id = "pic" name = "question5" value = img src="https://www.publicdomainpictures.net/pictures/310000/velka/red-circle.png" width="100" height="100"><br>
+</div>
+
+
+<input type="button" onclick="myFunction5()" value="Start Question 5">
+<script>
+function myFunction5() {
+  document.getElementById("q5").style.display = "block";
+  document.getElementById("q4").style.display = "none";
+
+}
+</script>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+
+<script src = "MathQuiz.js" defer></script>
+</body>
+
+
+
+</html>
