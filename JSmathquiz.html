@@ -8,6 +8,32 @@
 <script src = "MathQuiz.js" defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+<script>
+function myAnswer1(){
+
+let question1= document.querySelector("#textbox").value; 
+
+if(question1 == 4){
+alert("You are correct!");
+}
+else{
+alert("Wrong answer!");
+}
+}
+</script>
+<script>
+function myAnswer2(){
+
+let question2= document.querySelector("#9").value; 
+
+if(question2 == 9){
+alert("You are correct!");
+}
+else{
+alert("Wrong answer!");
+}
+}
+</script>
 
 </head>
 
@@ -21,20 +47,9 @@
 <p class = "questions">1) What is 2 + 2?</p>
 <input id = "textbox" type = "text" name = "question1">
 <input type="button" onclick="myAnswer1()" value="Submit Answer">
-
-<script>
-var question1 = document.quiz.question1.value;
-function myAnswer1() {
-if(var question1 == 4){
-document.write("You are correct!");
-}
-else{
-document.write("Wrong Answer!");
-}
-}
-</script>
-
 </div>
+
+
 
 
 
@@ -51,6 +66,7 @@ function myFunction1() {
 <input type = "radio" id = "mc" name = "question2" value = "9"> 9<br>
 <input type = "radio" id = "mc" name = "question2" value = "6"> 6<br>
 <input type = "radio" id = "mc" name = "question2" value = "3"> 3<br>
+<input type="button" onclick="myAnswer2()" value="Submit Answer">
 </div>
 
 <input type="button" onclick="myFunction2()" value="Start Question 2">
@@ -58,7 +74,6 @@ function myFunction1() {
 function myFunction2() {
   document.getElementById("q2").style.display = "block";
   document.getElementById("q1").style.display = "none";
-
 }
 </script>
 
@@ -75,7 +90,6 @@ function myFunction2() {
 function myFunction3() {
   document.getElementById("q3").style.display = "block";
   document.getElementById("q2").style.display = "none";
-
 }
 </script>
 
@@ -92,7 +106,6 @@ function myFunction3() {
 function myFunction4() {
   document.getElementById("q4").style.display = "block";
   document.getElementById("q3").style.display = "none";
-
 }
 </script>
 
@@ -110,7 +123,6 @@ function myFunction4() {
 function myFunction5() {
   document.getElementById("q5").style.display = "block";
   document.getElementById("q4").style.display = "none";
-
 }
 </script>
 
